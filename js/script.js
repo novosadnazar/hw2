@@ -23,3 +23,9 @@ const resultHelth = saveHelth - 5;
 console.log(resultHelth);
 const resultEnergy = saveEnergy - 20;
 console.log(resultEnergy);
+
+// Створити змінну для зберігання суми покупки в магазині. Застосувати знижку в розмірі 10% до цієї суми за допомогою оператора множення та вивести результат в консоль.
+
+const storageSum = 100;
+const resultSum = storageSum - 10;
+console.log(resultSum);
