@@ -11,9 +11,8 @@ const storageDays = 30;
 const resultTwo = storageDays * 24; 
 console.log(resultTwo);
 
-const storageMin = 720;
-const resultThree = storageMin * 60;
-console.log(resultThree);
+const resultThree = resultTwo * 60;
+console.log(resultTwo);
 
 // Створити змінні для зберігання рівня здоров'я та енергії гравця в грі. Зменшити рівень здоров'я та енергії гравця за допомогою операторів віднімання та вивести результат в консоль.
 
@@ -27,5 +26,5 @@ console.log(resultEnergy);
 // Створити змінну для зберігання суми покупки в магазині. Застосувати знижку в розмірі 10% до цієї суми за допомогою оператора множення та вивести результат в консоль.
 
 const storageSum = 100;
-const resultSum = storageSum - 10;
+const resultSum = storageSum * 0.10;
 console.log(resultSum);
